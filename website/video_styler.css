@@ -6,7 +6,8 @@
 
 /* find a better background color, and keep consistent with other pages */
 body {
-    background: #2e8d86;
+    //background: #ADD8E6;
+    background: #E0FFFF; // Columbia Blue
     //background: #34495E;
 }
 
@@ -43,7 +44,8 @@ body {
 
 .small-img-row {
     display: flex;
-    background: #efefef;
+    //background: #efefef;
+    background: #E0FFFF;
     margin: 20px 0;
     align-items: center;
     border-radius: 6px;
@@ -61,7 +63,8 @@ body {
 
 .small-img-row p {
     margin-left: 20px;
-    color: #707070;
+    //color: #707070; // some sort of slate gray
+    color: #000000;
     line-height: 22px;
     font-size: 15px;
 }
