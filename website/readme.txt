@@ -18,6 +18,7 @@ https://www.youtube.com/watch?v=wnseY8goQoc
 
 These websites were used to create a slideshow with various NYY content.
 
-https://www.w3schools.com/howto/howto_css_overlay.asp
+https://codepen.io/illia_chaban/pen/NQpdYV
 
-this is how you write text over an overlay.
+This is where I got the social media Icons. Illia Chaban wrote this, and I
+adapted the code to my needs. Thanks Illia!
