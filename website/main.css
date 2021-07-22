@@ -8,25 +8,26 @@
 body {
         padding: 0;
         margin: 0;
-        background: #f2f6e9;
+        //background: #f2f6e9;
+        background: #E0FFFF; // columbia blue
 }
 
 .navbar {
-        background:#6ab446;
+        background-color:#000000; // black
 }
 
 .nav-link,
 .navbar-brand {
-        color: #fff;
+        //color: #fff; // N/A now that I have a temp logo in
         cursor: pointer;
 }
-
 .nav-link {
         margin-right: 1em !important;
 }
 
 .nav-link:hover {
-        color: #000;
+        //color: #000;
+        color: #d9051b;
 }
 
 .navbar-collapse {
