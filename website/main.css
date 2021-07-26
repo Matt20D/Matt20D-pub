@@ -5,24 +5,34 @@
  *
  */
 
-body {
+/*
+ * Color scheme
+ * Black - #030303
+ * White - #ffffff
+ * Accent 1: Baby Blue - #97c6da
+ * Accent 2: Red - #ff0000
+ * Links: Blue - #0066ff
+ */
+
+#otherpages{
         padding: 0;
         margin: 0;
-        //background: #f2f6e9;
-        background: #E0FFFF; // columbia blue
+        background: #ffffff; // white
+        font-family: 'Roboto';
 }
 
 .navbar {
-        background-color:#000000; // black
+        background-color:#97c6da; // baby blue
 }
 
 .nav-link,
 .navbar-brand {
-        //color: #fff; // N/A now that I have a temp logo in
+        color: #030303; // N/A now that I have a temp logo in
         cursor: pointer;
 }
 .nav-link {
         margin-right: 1em !important;
+        //color:#f2f6e9;
 }
 
 .nav-link:hover {
