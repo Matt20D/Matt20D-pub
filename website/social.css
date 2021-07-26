@@ -6,25 +6,22 @@
  */
 
 body {
-    // commented out colors are the originals
-    // --color-bright: #f2f1c6;
-    --color-bright: #000000;
-    --color-orange: #FF6138;
-    //--body-background-color: #2c3135;
-    --body-background-color: #E0FFFF;
-
+    --color-bright: #303030;
+    --color-orange: #97c6da;
+    --body-background-color: #ffffff;
+    background-image: url('./images/homepage.jpeg');
     background: var(--body-background-color);
 }
 
 #intro {
     color: var(--color-bright);
     position: relative;
-    top: 30px;
-    //left: 50%;
-    //transform: translateX(-50%);
-    transform: translate(0%, +750%);
-    text-align: center;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
     font-size: 1.5rem;
+    margin-left: 33px;
+    margin-top: 100px;
 }
 
 html, body, #contact-info {
@@ -34,13 +31,14 @@ html, body, #contact-info {
 
 #contact-info {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
+    margin-left: 50px;
 }
 
 #contact-info .links {
     display: flex;
-    min-width: 500px;
+    min-width: 300px;
     justify-content: space-between;
 }
 
