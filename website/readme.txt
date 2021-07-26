@@ -22,3 +22,9 @@ https://codepen.io/illia_chaban/pen/NQpdYV
 
 This is where I got the social media Icons. Illia Chaban wrote this, and I
 adapted the code to my needs. Thanks Illia!
+
+https://www.w3schools.com/css/css_website_layout.asp
+
+https://www.w3schools.com/css/tryit.asp?filename=trycss_website_layout_grid
+
+https://www.w3schools.com/html/html_images_background.asp
