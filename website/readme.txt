@@ -28,3 +28,14 @@ https://www.w3schools.com/css/css_website_layout.asp
 https://www.w3schools.com/css/tryit.asp?filename=trycss_website_layout_grid
 
 https://www.w3schools.com/html/html_images_background.asp
+
+https://codecoda.com/en/blog/entry/css-layout-grid-vs-flexbox
+for learning how to make a gallery grid webpage layout.
+
+https://tinypng.com/
+
+for compressing photo sizes
+
+https://codepen.io/akspiel/pen/GYOwMJ/
+
+This is for resizing iframes better
