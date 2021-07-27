@@ -111,3 +111,65 @@
         tab-size: 8;
 }
 
+/* Create three unequal columns that floats next to each other */
+.column-vid {
+    float: left;
+    padding: 10px;
+}
+
+/* Left and right column */
+.column-vid.side {
+    width: 10%;
+}
+
+/* Middle column */
+.column-vid.middle {
+    width: 80%;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+
+/* these classes will provide style info for the description class/tags */
+.my-footer {
+        left: 50%;
+        position: relative;
+        top: 45%;
+        transform: translate(-50%, -55%);
+        text-align: left;
+}
+
+.my-footer h1 {
+        color: #6ab446;
+}
+
+.my-footer p {
+        color: #303030;
+        font-size: 1.3rem;
+        line-height: 1.5;
+        margin-left: 10px;
+}
+
+/* video containers */
+.container{ 
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);  
+    grid-template-rows: repeat(3, 200px); 
+    background-color: #97c6da; 
+    gap: 10px 
+}
+.container > div { 
+    //background-color: #ffffff; 
+}
