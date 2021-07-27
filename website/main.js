@@ -22,3 +22,16 @@ ready(() => {
         document.querySelector(".header").style.height = window.innerHeight + "px";
 })
 
+
+/* videoPlayer code */
+                var videoPlayer = document.getElementById("videoPlayer");
+                var myVideo = document.getElementById("myVideo");
+
+                function stopVideo(){
+                    videoPlayer.style.display = "none"
+                }
+
+                function playVideo(file){
+                    myVideo.src = file;
+                    videoPlayer.style.display = "block"
+                }
