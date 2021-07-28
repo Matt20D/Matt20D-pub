@@ -166,9 +166,9 @@
 .container{ 
     display: grid; 
     grid-template-columns: repeat(3, 1fr);  
-    grid-template-rows: repeat(3, 200px); 
+    grid-template-rows: repeat(3, 250px); 
     background-color: #97c6da; 
-    gap: 10px 
+    gap: 20px 
 }
 .container > div { 
     //background-color: #ffffff; 
