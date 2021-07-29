@@ -173,3 +173,19 @@
 .container > div { 
     //background-color: #ffffff; 
 }
+
+/* Create three unequal columns that floats next to each other */
+.column-text {
+    float: left;
+    padding: 10px;
+}
+
+/* Left and right column */
+.column-text.side {
+    width: 15%;
+}
+
+/* Middle column */
+.column-text.middle {
+    width: 70%;
+}
