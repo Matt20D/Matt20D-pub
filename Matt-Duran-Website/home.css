@@ -1,0 +1,93 @@
+/* home.css, styling for homepage */
+
+* {
+    box-sizing: border-box;
+}
+
+#homepage {
+    margin: 0;
+    background-image: url('./images/homepage.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+
+}
+
+.footer {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+    width: 35%;
+}
+
+/* Middle column */
+.column.middle {
+    width: 65%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+
+/* these classes will provide style info for the description class/tags */
+.my-footer {
+        left: 50%;
+        position: relative;
+        top: 45%;
+        transform: translate(-50%, -55%);
+        text-align: left;
+}
+
+.my-footer h1 {
+        color: #6ab446;
+}
+
+.my-footer p {
+        color: #303030;
+        font-size: 1.3rem;
+        line-height: 1.5;
+        margin-left: 10px;
+}
+
