@@ -1,4 +1,8 @@
-sources:
+This repo contains all of the html/js/css code required to bring
+my website to life. Feel free to propose any changes, I am always 
+to collaborate and make things more efficient.
+
+sources used:
 
 https://websitesetup.org/bootstrap-tutorial-for-beginners/
 
