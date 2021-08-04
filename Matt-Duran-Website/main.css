@@ -166,7 +166,7 @@
 .container{ 
     display: grid; 
     grid-template-columns: repeat(3, 1fr);  
-    grid-template-rows: repeat(3, 250px); 
+    grid-template-rows: repeat(3, 305px); 
     background-color: #97c6da; 
     gap: 20px 
 }
@@ -188,4 +188,15 @@
 /* Middle column */
 .column-text.middle {
     width: 70%;
+}
+
+/* changing the line spacing */
+.row {
+    line-height: 1.7;
+}
+
+/* changing the paragraph spacing */
+p {
+    margin-top: 1em ;
+    margin-bottom: 1em ;
 }
