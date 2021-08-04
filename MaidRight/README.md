@@ -5,16 +5,16 @@ for a family friend, and no NDAs were signed. All personal information has been 
 This code was written earlier on in my graduate studies, and works with skills that I had at the time. 
 If I had a chance to iterate, I would choose more efficient data structures and implementations.
 
-Client.java   
+1.   Client.java   
         * this class contains methods that are pertinent to an instance of a client, such as their name, financing number, and more.
 
-BAFTracker.java   
+2.    BAFTracker.java   
         * this class contains methods that parses various financial statements, to track financial data over time.
 
-dateTester.java   
+3.    dateTester.java   
         * unit test to check my date manipulation logic
 
-tester.java   
+4.    tester.java   
         * testing java string methods
 
-Statement_Generator   
+5.    Statement_Generator   
