@@ -64,3 +64,7 @@ Sharing a perfect blog to help you to host a static website using AWS S3, Route 
 	* setting up redirects
 	* setting up error messages
 	* this began by developing on my columbia cunix account, then I ended up learning about amazon AWS and their hosting services.
+
+favicon source
+
+https://stackoverflow.com/questions/48803698/site-hosted-on-amazon-s3-not-displaying-favicon
