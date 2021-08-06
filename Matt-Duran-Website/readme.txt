@@ -43,3 +43,20 @@ for compressing photo sizes
 https://codepen.io/akspiel/pen/GYOwMJ/
 
 This is for resizing iframes better
+
+Setting up on AWS
+
+https://www.freecodecamp.org/news/a-beginners-guide-on-how-to-host-a-static-site-with-aws/
+
+https://docs.aws.amazon.com/AmazonS3/latest/userguide/website-hosting-custom-domain-walkthrough.html#website-hosting-custom-domain-walkthrough-domain-registry
+
+https://docs.aws.amazon.com/AmazonS3/latest/userguide/website-hosting-cloudfront-walkthrough.html
+
+Sharing a perfect blog to help you to host a static website using AWS S3, Route 53, ACM & Cloudfront victoria.dev/blog/hosting-y… Kudos to @victoriadotdev I was struggling to do this as all articles were drafted in different pieces, but your blog helped a lot!
+
+	* Hosting a static website...
+	* buying and registering a domain name
+	* navigating AWS S3, Route 53, Cloudfront to actually configure the server host. Redirections of clients to the correct places and more
+	* ensure that all of the connections were secure.
+	* learned about logging traffic
+	* developing a favicon.ico
