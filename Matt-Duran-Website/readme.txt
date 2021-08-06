@@ -60,3 +60,6 @@ Sharing a perfect blog to help you to host a static website using AWS S3, Route 
 	* ensure that all of the connections were secure.
 	* learned about logging traffic
 	* developing a favicon.ico
+	* setting up buckets for content.
+	* setting up redirects
+	* setting up error messages
