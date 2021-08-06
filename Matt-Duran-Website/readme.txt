@@ -63,3 +63,4 @@ Sharing a perfect blog to help you to host a static website using AWS S3, Route 
 	* setting up buckets for content.
 	* setting up redirects
 	* setting up error messages
+	* this began by developing on my columbia cunix account, then I ended up learning about amazon AWS and their hosting services.
