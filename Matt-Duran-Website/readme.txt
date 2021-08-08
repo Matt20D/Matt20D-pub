@@ -68,3 +68,7 @@ Sharing a perfect blog to help you to host a static website using AWS S3, Route 
 favicon source
 
 https://stackoverflow.com/questions/48803698/site-hosted-on-amazon-s3-not-displaying-favicon
+
+custom error docs
+https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/GeneratingCustomErrorResponses.html
+https://docs.aws.amazon.com/AmazonS3/latest/userguide/CustomErrorDocSupport.html
