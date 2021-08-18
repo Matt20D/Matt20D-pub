@@ -1,0 +1,122 @@
+<!-- terms.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- This is where the basic params of page go -->
+    <head>
+
+        <!-- source : https://websitesetup.org/bootstrap-tutorial-for-beginners/ -->
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- favicon photo and title that will be shown in browser tab -->
+        <!--
+        <meta>
+            <link rel="shortcut icon" type="image/icon" href="https://mmduran.com.s3.us-east-1.amazonaws.com/favicon.ico">
+        </meta>
+        -->
+        <meta>
+            <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico?v=1.0"/>
+            <link rel="shortcut icon" type="image/x-icon" href="https://mmduran.com.s3.us-east-1.amazonaws.com/favicon.ico"/>
+        </meta>
+        <link rel="shortcut icon" type="image/x-icon" href="https://mmduran.com.s3.us-east-1.amazonaws.com/favicon.ico">
+
+        <title>Academic Integrity | Matt Duran's Website</title>
+
+        <!-- load bootstrap bia content delivery network-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+        <!-- link in main.css, for navbar class code -->
+        <link rel="stylesheet" type="text/css" href="main.css?v=1.2">
+
+    </head>
+
+    <!-- what does the body actually do? -->
+    <body id="otherpages">
+
+        <!-- load jquery and bootstrap javascript-->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+        <!-- navigation bar, to be changed -->
+        <nav class="navbar navbar-expand-md">
+                <!-- website branding, add a logo image file here-->
+                <a class="navbar-brand" href="./index.html">
+                        <img src="./images/logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+                        <!--mmduran.com-->
+                </a>
+                <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+                        <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="main-navigation">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="./resume.html">Resume</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./career_highlights.html">NYY Career Highlights</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./integrity.html">Academic Integrity</a>
+                            </li>
+                        </ul>
+                </div>
+        </nav>
+
+        <!-- call the main.js file -->
+        <script src="main.js"></script>
+
+        <!-- whitespace -->
+        <br> <br> 
+
+        <!-- academic integrity -->
+        <div class="row">
+
+                <!-- left margin -->
+                <div class="column-text side"></div> 
+
+                <!-- actual content -->
+                <div class="column-text middle">
+                        <h3>Note on Academic Integrity</h3>
+                        <p>
+                                This code portfolio is solely mine, except where indicated, and cannot be copied without my consent. The
+                                purpose of this code is to demonstrate to employers the skills that I have accrued during my time at 
+                                Columbia Univeristy and should not be used <strong> by other students to gain any unfair advantages.
+                                </strong> To that end, I have abided by the below policies and any additional ones separately outlined by 
+                                my professors. Most of the code is housed at my 
+                                <a href="https://github.com/Matt20D/Columbia_Coursework">public github repository</a>,
+                                else they are in un-searchable secret github gists (<b>where required by my professors</b>).
+                        </p>
+                        <ul>
+                                <li> <a href="https://www.gradengineering.columbia.edu/academics/academic-integrity">Columbia Graduate Engineering Academic Integrity Policy</a> </li>
+                                <li> <a href="https://www.cs.columbia.edu/education/honesty/">CS@CU Academic Integrity Policy</a></li>
+                        </ul>
+                </div> 
+
+                <!-- right margin -->
+                <div class="column-text side"></div> 
+
+        </div>
+
+        <!-- html page footer -->
+        <footer class="page-footer">
+            <br>
+            <div class="footer-copyright text-center">
+                <a href="./index.html">Homepage</a> | 
+                <a href="./resume.html">Resume</a> | 
+                <a href="./portfolio.html">Portfolio</a> | 
+                <a href="./career_highlights.html">NYY Career Highlights</a> | 
+                <a href="./integrity.html">Academic Integrity</a>
+            </div>
+            <div class="footer-copyright text-center"><b>Matthew Duran 2021</b></div>
+            <br>
+        </footer>
+
+    </body>
+
+</html>
