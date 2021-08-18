@@ -48,8 +48,9 @@
     font-size: 200%;
 }
 
+/* header stuff */
 .header {
-        background-image: url('./images/header-background.jpg');
+        background-image: url('./images/artsy.jpg');
         background-size: cover;
         background-position: center;
         position: relative;
@@ -98,6 +99,21 @@
         color:#000;
 }
 
+/*--- footer ---*/
+
+.page-footer {
+    background-color: #97c6da;
+    color: #303030;
+}
+
+.footer-copyright {
+    color: #303030;
+}
+
+.footer-copyright a {
+    color: #303030;
+}
+
 /* tab functions */
 .tab1 {
         tab-size: 2;
@@ -143,6 +159,7 @@
 }
 
 /* these classes will provide style info for the description class/tags */
+/*
 .my-footer {
         left: 50%;
         position: relative;
@@ -161,7 +178,7 @@
         line-height: 1.5;
         margin-left: 10px;
 }
-
+*/
 /* video containers */
 .container{ 
     display: grid; 
@@ -199,4 +216,13 @@
 p {
     margin-top: 1em ;
     margin-bottom: 1em ;
+}
+
+/* link hover styling */
+.page-footer a:hover {
+    color: #d9051b;
+}
+
+a:hover {
+    color: #d9051b;
 }
