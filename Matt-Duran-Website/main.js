@@ -15,7 +15,7 @@ $(document).ready(function(){
 /* this below code does the same as the jQuery stuff above */
 var ready = (callback) => {
         if (document.readyState != "loading") callback();
-            else document.addEventListener("DOMContentLoaded", callback);
+        else document.addEventListener("DOMContentLoaded", callback);
 }
 
 ready(() => {
