@@ -6,18 +6,13 @@
 
 #homepage {
     margin: 0;
-    background-image: url('./images/homepage.jpeg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;  
-    background-size: cover;
+    //background-image: url('./images/homepage.jpeg');
+    //background-repeat: no-repeat;
+    //background-attachment: fixed;  
+    //background-size: cover;
 
 }
 
-.footer {
-    background-color: #F1F1F1;
-    text-align: center;
-    padding: 10px;
-}
 
 /* Style the top navigation bar */
 .topnav {
@@ -72,6 +67,7 @@
 }
 
 /* these classes will provide style info for the description class/tags */
+/*
 .my-footer {
         left: 50%;
         position: relative;
@@ -90,4 +86,4 @@
         line-height: 1.5;
         margin-left: 10px;
 }
-
+*/
