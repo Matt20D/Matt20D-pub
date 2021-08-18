@@ -11,9 +11,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- favicon photo and title that will be shown in browser tab -->
+        <!--
         <meta>
             <link rel="shortcut icon" type="image/icon" href="https://mmduran.com.s3.us-east-1.amazonaws.com/favicon.ico">
         </meta>
+        -->
+        <meta>
+            <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico?v=1.0"/>
+            <link rel="shortcut icon" type="image/x-icon" href="https://mmduran.com.s3.us-east-1.amazonaws.com/favicon.ico"/>
+        </meta>
+        <link rel="shortcut icon" type="image/x-icon" href="https://mmduran.com.s3.us-east-1.amazonaws.com/favicon.ico">
 
         <title>Matt Duran's Website</title>
 
@@ -29,9 +36,14 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
         <link rel="stylesheet" type="text/css" href="social.css?v=1.2">
 
+        <!-- header js stuff -->
+        <script src="jquery-3.5.1.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="main.js"></script>
+
     </head>
 
-    <body id="homepage">
+    <body>
 
             <!-- load jquery and bootstrap javascript-->
             <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
@@ -63,25 +75,28 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="./career_highlights.html">NYY Career Highlights</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./integrity.html">Academic Integrity</a>
+                            </li>
                         </ul>
                 </div>
             </nav>
 
-          <!-- HTML content layout -->
-          <div class="row">
-              <div class="column side">
+            <header class="page-header header container-fluid">
+                <div class="overlay"></div>
+                <div class="description">
+                    <!-- if want the blue back, color is #97c6da -->
+                    <h1 align='left' style="font-size: 50px; color: #fff;"> Matt Duran </h1>
 
-                    <!-- nested div for the title sequence -->
-                    <div id="intro">
-                            <h1 align='left' style="font-size: 50px; color: #030303;"> Matt Duran </h1>
-                            <p align='left' style= "font-size: 20px; color: #97c6da;">
-                                B.A., 2020, Economics & Mathematics; M.S., 2022 (expected), Computer Science
-                            </p>
-                            <br>
-                            <p align='left' style="font-size: 20px; color:#030303;">
-                                Former New York Yankees 3rd Baseman, current Columbia University Computer Science Student 
-                            </p>
-                    </div>
+                    <br>
+                    
+                    <p align='left' style= "font-size: 20px; color: #fff;">
+                    B.A., 2020, Economics & Mathematics; M.S., 2022 (expected), Computer Science
+                    </p>
+                    
+                    <p align='left' style="font-size: 20px; color: #fff;">
+                    Former New York Yankees 3rd Baseman, current Columbia University Computer Science Student 
+                    </p>
 
                     <!-- social media code -->
                     <div id='contact-info'>
@@ -147,22 +162,25 @@
 
                     <!-- close out the contact info div -->
                     </div>
-                
-                <!-- close out the column div -->
+
+                <!-- close out the description div -->
                 </div>
-            
-            <!-- close out the row div -->
-            </div>
+            </header>
 
             <!-- html page footer -->
-            <div class="my-footer">
+            <footer class="page-footer">
+                <br>
+                <div class="footer-copyright text-center">
+                    <a href="./index.html">Homepage</a> | 
+                    <a href="./resume.html">Resume</a> | 
+                    <a href="./portfolio.html">Portfolio</a> | 
+                    <a href="./career_highlights.html">NYY Career Highlights</a> | 
+                    <a href="./integrity.html">Academic Integrity</a>
+                </div>
+                <div class="footer-copyright text-center"><b>Matthew Duran 2021</b></div>
+                <br>
+            </footer>
 
-                <!-- This is the symbolic end of the html page --> 
-                <hr>
-
-                <p style="font-size: 15px; line-height:1.5em;text-align:center;"><b>Matthew Duran 2021</b></p>
-
-            </div> 
     </body>
 
 </html>
