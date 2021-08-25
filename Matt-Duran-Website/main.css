@@ -106,11 +106,17 @@
     color: #303030;
 }
 
-.footer-copyright {
+.footer-copyright-left {
+    float: left;
     color: #303030;
 }
 
-.footer-copyright a {
+.footer-copyright-right {
+    float: right;
+    color: #303030;
+}
+
+.footer-copyright-right a {
     color: #303030;
 }
 
@@ -158,27 +164,6 @@
     }
 }
 
-/* these classes will provide style info for the description class/tags */
-/*
-.my-footer {
-        left: 50%;
-        position: relative;
-        top: 45%;
-        transform: translate(-50%, -55%);
-        text-align: left;
-}
-
-.my-footer h1 {
-        color: #6ab446;
-}
-
-.my-footer p {
-        color: #303030;
-        font-size: 1.3rem;
-        line-height: 1.5;
-        margin-left: 10px;
-}
-*/
 /* video containers */
 .container{ 
     display: grid; 
@@ -205,6 +190,16 @@
 /* Middle column */
 .column-text.middle {
     width: 70%;
+}
+
+/* Left and right footer margins */
+.column-text.footer-side {
+    width: 7.5%;
+}
+
+/* Middle column for footer*/
+.column-text.footer-middle {
+    width: 85%;
 }
 
 /* changing the line spacing */
