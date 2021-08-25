@@ -72,3 +72,6 @@ https://stackoverflow.com/questions/48803698/site-hosted-on-amazon-s3-not-displa
 custom error docs
 https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/GeneratingCustomErrorResponses.html
 https://docs.aws.amazon.com/AmazonS3/latest/userguide/CustomErrorDocSupport.html
+
+left and right align on same line in footer
+https://css-tricks.com/left-align-and-right-align-text-on-the-same-line/
