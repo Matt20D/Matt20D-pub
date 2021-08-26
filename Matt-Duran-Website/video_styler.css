@@ -6,14 +6,11 @@
 
 /* find a better background color, and keep consistent with other pages */
 body {
-    //background: #ADD8E6;
-    background: #E0FFFF; // Columbia Blue
-    //background: #34495E;
+    background: #FFFFFF; // Columbia Blue
 }
 
 .container {
-    width: 80%;
-    margin 80px auto;
+    width: 100%;
 }
 
 .container h1 {
@@ -44,7 +41,7 @@ body {
 .small-img-row {
     display: flex;
     //background: #efefef;
-    background: #E0FFFF;
+    background: #FFFFFF;
     margin: 20px 0;
     align-items: center;
     border-radius: 6px;
