@@ -5,8 +5,8 @@ Completed Problems:
 
        add_two_numbers.py (Question 2)
        maxarea.py (Question 11)
-12.    roman_numbers.py
-17.    letter_combinations.py
-24.    reverse_linked_list_pair.py
-49.    anagrams.py
-695.   max_area_of_island.py
+       roman_numbers.py (Question 12)
+       letter_combinations.py (Question 17)
+       reverse_linked_list_pair.py (Question 24)
+       anagrams.py (Question 49)
+       max_area_of_island.py (Question 695)
