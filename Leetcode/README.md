@@ -1,6 +1,7 @@
 # Leetcode
 
 This directory will contain my solutions to Leetcode problems that I have been doing for interview prep. The bullet number is the Leetcode problem number.
+Completed Problems:
 
 2.     add_two_numbers.py
 11.    maxarea.py
