@@ -1,6 +1,7 @@
 # Leetcode
 
-This directory will contain my solutions to Leetcode problems that I have been doing for interview prep. The bullet number is the Leetcode problem number.
+This directory will contain my solutions to Leetcode problems that I have been doing for interview prep.
+
 Completed Problems:
 
        add_two_numbers.py (Question 2)
